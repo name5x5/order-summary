@@ -1,0 +1,139 @@
+/* .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: brown;
+}
+.matn {
+  color: darkgrey;
+}
+.card-body button{
+  background-color:aquamarine;
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+.card-body button img{
+  width: 12px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-very-des-blue: hsl(225, 100%, 94%);
+  --color-pale: hsl(245, 75%, 52%);
+  --color-pale: hsl(225, 100%, 98%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(225, 100%, 98%) url(images/pattern-background-desktop.svg) no-repeat top center/contain;
+
+}
+
+.card {
+  width: 300px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.rasm {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.box p {
+  text-align: center;
+}
+
+button {
+  background-color: blue;
+  color: azure;
+}
+
+.rasm {
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-body {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan {
+  background-color: var(--color-very-des-blue);
+  height: 50px;
+  margin-top: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+}
+.box-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box-1 img {
+  width: 30px;
+}
+.box-1 p {
+  font-size: 10px;
+}
+.card-body.Change-plan{
+  color: var(Bright blue);
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+/* .box-2 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(42, 165, 149);
+}
+
+.box-3 {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+} */
+
+.card .btn-payment {
+  margin-top: 15px;
+  border-radius: 4px;
+  background-color: var(--color-pale);
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+}
+
+.card .btn-cancel {
+  background-color: transparent;
+  border: none;
+  margin-top: 15px;
+  color: var (--color-des-blue);
+  font-weight: 700;
+}
